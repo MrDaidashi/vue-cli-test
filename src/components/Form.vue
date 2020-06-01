@@ -61,7 +61,6 @@
         {text:'楚雄',value:'楚雄'},{text:'保山',value:'保山'}]
 
     export default {
-        name:'form',
         data:function () {
             return{
                 formData:{

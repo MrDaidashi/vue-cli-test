@@ -13,6 +13,7 @@ import Vuex1 from './components/VuexDemo1'
 import Home from './view/Home'
 import Login from './view/Login'
 import Ajax from './view/GetData'
+import WebsocketDemo from './view/websocketDemo'
 
 // import Admin from './components/admin/admin'
 
@@ -37,6 +38,7 @@ export default new Router({
                 { path: '/addUser',name:'addUser',component:editUser},
                 { path: '/Vuex1',name:'Vuex1',component:Vuex1},
                 { path: '/axios',name:'axios',component:Ajax},
+                { path: '/websocket',name:'websocket',component:WebsocketDemo},
                 {path :'/routerTest',component:routerTest,
                     children:[
                         {

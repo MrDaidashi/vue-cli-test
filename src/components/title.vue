@@ -8,7 +8,6 @@
 <script>
     import {mapState} from 'vuex'
     export default {
-        name:"title",
         props:{
             info:String
         },

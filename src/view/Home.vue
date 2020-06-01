@@ -21,7 +21,9 @@
     import mytitle from "../components/title"
     // import {mapState} from 'vuex'
 
-    const menuList = [{text:'个人信息表单',url:'/form'},{text:'用户信息',url:"/user"},{text:'嵌套路由',url:'/routerTest'},{text:'Vuex计数器',url:'/Vuex1'},{text:"axios",url:"/axios"}];
+    const menuList = [{text:'个人信息表单',url:'/form'},{text:'用户信息',url:"/user"},
+        {text:'嵌套路由',url:'/routerTest'},{text:'Vuex计数器',url:'/Vuex1'},{text:"axios",url:"/axios"},
+        {text:"websocketDemo",url:"/websocket"}];
 
     export default {
         name: 'App',
